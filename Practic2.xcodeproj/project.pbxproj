@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91CB54C29B2308F0007E8AC /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91CB54B29B2308F0007E8AC /* MyCustomCell.swift */; };
 		C937A0BF29A91A56002E32F7 /* GetInfoReddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C937A0BE29A91A56002E32F7 /* GetInfoReddit.swift */; };
+		C94BED0329B24A0A002FD54E /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94BED0229B24A0A002FD54E /* PostListViewController.swift */; };
 		C96D9E1029A8DCF5009FE573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D9E0F29A8DCF5009FE573 /* AppDelegate.swift */; };
 		C96D9E1229A8DCF5009FE573 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D9E1129A8DCF5009FE573 /* SceneDelegate.swift */; };
-		C96D9E1429A8DCF5009FE573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D9E1329A8DCF5009FE573 /* ViewController.swift */; };
+		C96D9E1429A8DCF5009FE573 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D9E1329A8DCF5009FE573 /* PostDetailsViewController.swift */; };
 		C96D9E1729A8DCF5009FE573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D9E1529A8DCF5009FE573 /* Main.storyboard */; };
 		C96D9E1929A8DCF8009FE573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96D9E1829A8DCF8009FE573 /* Assets.xcassets */; };
 		C96D9E1C29A8DCF8009FE573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D9E1A29A8DCF8009FE573 /* LaunchScreen.storyboard */; };
+		C97BCA9829BBB589008C3598 /* SavedPostsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BCA9729BBB589008C3598 /* SavedPostsManager.swift */; };
+		C9B0CA0729B625C1004B0C70 /* ImageSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0CA0629B625C1004B0C70 /* ImageSizing.swift */; };
+		C9B6F32B29BF65DF00F0E42E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6F32A29BF65DF00F0E42E /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C91CB54B29B2308F0007E8AC /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		C937A0BE29A91A56002E32F7 /* GetInfoReddit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoReddit.swift; sourceTree = "<group>"; };
+		C94BED0229B24A0A002FD54E /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		C96D9E0C29A8DCF5009FE573 /* Practic2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practic2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96D9E0F29A8DCF5009FE573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C96D9E1129A8DCF5009FE573 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C96D9E1329A8DCF5009FE573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C96D9E1329A8DCF5009FE573 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
 		C96D9E1629A8DCF5009FE573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C96D9E1829A8DCF8009FE573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96D9E1B29A8DCF8009FE573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96D9E1D29A8DCF8009FE573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97BCA9729BBB589008C3598 /* SavedPostsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPostsManager.swift; sourceTree = "<group>"; };
+		C9B0CA0629B625C1004B0C70 /* ImageSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSizing.swift; sourceTree = "<group>"; };
+		C9B6F32A29BF65DF00F0E42E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +68,19 @@
 		C96D9E0E29A8DCF5009FE573 /* Practic2 */ = {
 			isa = PBXGroup;
 			children = (
+				C9B0CA0629B625C1004B0C70 /* ImageSizing.swift */,
 				C96D9E0F29A8DCF5009FE573 /* AppDelegate.swift */,
 				C96D9E1129A8DCF5009FE573 /* SceneDelegate.swift */,
-				C96D9E1329A8DCF5009FE573 /* ViewController.swift */,
+				C96D9E1329A8DCF5009FE573 /* PostDetailsViewController.swift */,
 				C96D9E1529A8DCF5009FE573 /* Main.storyboard */,
 				C96D9E1829A8DCF8009FE573 /* Assets.xcassets */,
 				C96D9E1A29A8DCF8009FE573 /* LaunchScreen.storyboard */,
 				C96D9E1D29A8DCF8009FE573 /* Info.plist */,
 				C937A0BE29A91A56002E32F7 /* GetInfoReddit.swift */,
+				C91CB54B29B2308F0007E8AC /* MyCustomCell.swift */,
+				C94BED0229B24A0A002FD54E /* PostListViewController.swift */,
+				C97BCA9729BBB589008C3598 /* SavedPostsManager.swift */,
+				C9B6F32A29BF65DF00F0E42E /* Post.swift */,
 			);
 			path = Practic2;
 			sourceTree = "<group>";
@@ -141,9 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C96D9E1429A8DCF5009FE573 /* ViewController.swift in Sources */,
+				C96D9E1429A8DCF5009FE573 /* PostDetailsViewController.swift in Sources */,
+				C97BCA9829BBB589008C3598 /* SavedPostsManager.swift in Sources */,
+				C91CB54C29B2308F0007E8AC /* MyCustomCell.swift in Sources */,
 				C96D9E1029A8DCF5009FE573 /* AppDelegate.swift in Sources */,
 				C937A0BF29A91A56002E32F7 /* GetInfoReddit.swift in Sources */,
+				C9B0CA0729B625C1004B0C70 /* ImageSizing.swift in Sources */,
+				C9B6F32B29BF65DF00F0E42E /* Post.swift in Sources */,
+				C94BED0329B24A0A002FD54E /* PostListViewController.swift in Sources */,
 				C96D9E1229A8DCF5009FE573 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
